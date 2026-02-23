@@ -1,1 +1,1 @@
-This is the code fo
+This is the code for a payroll processor. It deals with two primary functions regarding pay up to 40 hours and overtime pay after 40 hours of work.

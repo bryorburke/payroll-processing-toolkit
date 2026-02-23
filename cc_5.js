@@ -35,6 +35,12 @@ function calculateTaxes(grossPay) {
     return taxAmount;
 }
 
+//Individual testing in the console
+console.log("Testing Individual Functions");
+console.log("Base Pay Test (40hrs at $20):", calculateBasePay(20, 40)); 
+console.log("Overtime Test (45hrs at $20):", calculateOvertimePay(20, 45));
+console.log("Tax Test ($1000 gross):", calculateTaxes(1000));
+
 //Function to Process Payroll for one employee
 function processPayroll(employee) {
     // Using the functions created above
